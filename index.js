@@ -17,17 +17,10 @@ function deepestChild() {
   const nodeList = document.querySelector('#grand-node').querySelectorAll('div')
   var deepestChildNode = []
   var nodeLength = nodeList.length
-    deepestChildNode = nodeList[nodeLength-1]
+  
+  deepestChildNode = nodeList[nodeLength-1]
   return deepestChildNode
 }
 
-/*function deepestChild() {
-  const nodeList = document.querySelector('#grand-node').querySelectorAll('div')
-  var deepestChildNode
-  for (var i = 0; i<nodeList.length-1 ; i++) {
-    deepestChildNode = nodeList[i]
-  }
-  return deepestChildNode.querySelector('div')
-}*/
 
 
